@@ -1,8 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import numpy
-from abc import ABC
 
 class MLP(nn.Module):
     """
